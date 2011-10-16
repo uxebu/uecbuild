@@ -8,8 +8,8 @@ TBD
 
 ## Getting images & kernels
 
-1. Download latest image from http://uec-images.ubuntu.com/
-   Ubuntu Maverick 10.10 amd64: http://uec-images.ubuntu.com/maverick/current/maverick-server-uec-amd64.tar.gz
+1. Download latest image from http://uec-images.ubuntu.com/ - i.e.
+   Ubuntu 11.10 Oneiric Ocelot amd64: http://uec-images.ubuntu.com/oneiric/current/
 
 2. Unpack archive
 
@@ -19,4 +19,7 @@ TBD
 
 5. Create a new virtual machine
 
-	$ ./uecbuild.py --image images/20111016-foo.img --kernel kernels/20111016-foo-vmlinuz-virtual foo
+~~~ sh
+./uecbuild.py --image images/20111016-foo.img --kernel kernels/20111016-foo-vmlinuz-virtual foo
+~~~
+
