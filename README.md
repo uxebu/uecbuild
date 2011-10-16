@@ -9,7 +9,6 @@ TBD
 ## Getting images & kernels
 
 1. Download latest image from http://uec-images.ubuntu.com/
-
    Ubuntu Maverick 10.10 amd64: http://uec-images.ubuntu.com/maverick/current/maverick-server-uec-amd64.tar.gz
 
 2. Unpack archive
