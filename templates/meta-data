@@ -1,0 +1,4 @@
+hostname: %(name)s
+instance-id: nocloud
+local-hostname: %(name)s
+
