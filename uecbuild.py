@@ -43,10 +43,10 @@ def err(msg):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(
-		description='Builds a domain (= virtual machine) from a UEC image and deploys it to an LVM volume and libvirt',
+		description='Depoy Ubuntu UEC images to KVM/LVM based infrastructures',
 		formatter_class=argparse.ArgumentDefaultsHelpFormatter
 	)
-    parser.add_argument('name', help='hostname and external name of domain')
+    parser.add_argument('name', help='FQDN and identifier of domain')
     parser.add_argument('--vg', default='vms', help='name of LVM volume group')
     parser.add_argument('--size', default='5G', help='size of root partition, e.g., 1000M, 5G')
     parser.add_argument('--memory', default=1048576, help='size of RAM in bytes, e.g., 1048576, 2097152')
