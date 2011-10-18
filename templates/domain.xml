@@ -28,6 +28,10 @@
       <source bridge='br0'/>
       <model type='virtio'/>
     </interface>
+    <serial type="pty">
+      <source path="/dev/pts/3"/>
+      <target port="1"/>
+    </serial>
 <!--
     <graphics type='vnc' port='-1' autoport='yes' listen='127.0.0.1'/>
     <video>
