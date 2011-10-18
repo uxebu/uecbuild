@@ -1,7 +1,4 @@
-apt_update: true
+apt_update: false
 apt_upgrade: false
 disable_ec2_metadata: true
-packages:
- - acpid 
- - build-essential
 
