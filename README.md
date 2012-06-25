@@ -1,6 +1,6 @@
 # uecbuild
 
-Depoy Ubuntu UEC images to KVM/LVM based infrastructures
+Depoy Ubuntu UEC images to KVM/LVM based infrastructures.
 
 ## Setting up LVM & KVM
 
@@ -9,7 +9,7 @@ TBD
 ## Getting images & kernels
 
 1. Download latest image from http://uec-images.ubuntu.com/ - i.e.
-   Ubuntu 11.10 Oneiric Ocelot amd64: http://uec-images.ubuntu.com/oneiric/current/
+   Ubuntu 12.04: http://uec-images.ubuntu.com/precise/current/
 
 2. Unpack archive
 
