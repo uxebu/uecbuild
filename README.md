@@ -9,17 +9,16 @@ TBD
 ## Getting images & kernels
 
 1. Download latest image from http://uec-images.ubuntu.com/ - i.e.
-   Ubuntu 12.04: http://uec-images.ubuntu.com/precise/current/
+   Ubuntu 12.04: http://uec-images.ubuntu.com/precise/current/precise-server-cloudimg-amd64.tar.gz
 
-2. Unpack archive
+2. Unpack archive in `/path/to/images` (don't change without changing libvirt domain configs, too)
 
-3. Move .img file to images/ and rename it to a unique, persistent name, i.e. the filename + the current date
+3. Rename folder to uec site's build date, i.e., "20120623"
 
-4. Move -vmlinuz-virtual file to kernels/ and also rename it
+4. Create a new virtual machine
 
-5. Create a new virtual machine
+    ./uecbuild.py --image /path/to/images/20120623/precise-server-cloudimg-amd64.img \
+                  --kernel /path/to/images/20120623/precise-server-cloudimg-amd64-vmlinuz-virtual \
+                  <name>
 
-~~~ sh
-./uecbuild.py --image images/20111016-foo.img --kernel kernels/20111016-foo-vmlinuz-virtual foo
-~~~
 
