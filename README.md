@@ -9,11 +9,11 @@ TBD
 ## Getting images & kernels
 
 1. Download latest image from http://uec-images.ubuntu.com/ - i.e.
-   Ubuntu 12.04: http://uec-images.ubuntu.com/precise/current/precise-server-cloudimg-amd64.tar.gz
+   [latest Ubuntu 12.04](http://uec-images.ubuntu.com/precise/current/precise-server-cloudimg-amd64.tar.gz)
 
 2. Unpack archive in `/path/to/images` (don't change without changing libvirt domain configs, too)
 
-3. Rename folder to uec site's build date, i.e., "20120623"
+3. Rename extracted folder to uec site's build date, i.e., "20120623"
 
 4. Create a new virtual machine
 
