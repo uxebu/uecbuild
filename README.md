@@ -17,8 +17,8 @@ TBD
 
 4. Create a new virtual machine
 
-    ./uecbuild.py --image /path/to/images/20120623/precise-server-cloudimg-amd64.img \
-                  --kernel /path/to/images/20120623/precise-server-cloudimg-amd64-vmlinuz-virtual \
-                  <name>
-
-
+~~~
+./uecbuild.py --image /path/to/images/20120623/precise-server-cloudimg-amd64.img \
+              --kernel /path/to/images/20120623/precise-server-cloudimg-amd64-vmlinuz-virtual \
+              <name>
+~~~
